@@ -1,8 +1,10 @@
-"""Quirk for L15 Ultra robot hoover (oaelsi57ejdiavfh).
+"""Quirk for L15 Ultra robot vacuum (oaelsi57ejdiavfh).
 
 The cloud function list omits `closed` for the `cistern` datapoint, but the
 device reports it when the mop water tank is off. Redeclare the full enum
 range so Home Assistant accepts the value.
+
+See https://github.com/home-assistant-libs/tuya-device-handlers/issues/642
 """
 
 from tuya_device_handlers import TUYA_QUIRKS_REGISTRY
