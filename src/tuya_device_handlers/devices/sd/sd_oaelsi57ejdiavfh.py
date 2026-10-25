@@ -2,7 +2,7 @@
 
 The cloud function list omits `closed` for the `cistern` datapoint, but the
 device reports it when the mop water tank is off. Redeclare the full enum
-range so Home Assistant accepts the value.
+range so Home Assistant accepts the value. 
 
 See https://github.com/home-assistant-libs/tuya-device-handlers/issues/642
 """
